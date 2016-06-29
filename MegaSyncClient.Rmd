@@ -13,9 +13,9 @@ Opent terminal and type:
 
     mdfind Mega
 
-Removed from the list files the Mega Limited files
+Remove the Mega Limited files or folder
 
      rm -rf Mega\ Limited/
 
-Eventually remove mega file in the folder Library.
+Eventually remove any mega file in the folder Library.
 
