@@ -1,0 +1,21 @@
+# How to completely removed MegaSync Client
+
+The MegaSync Client creates configuration files that remaing after uninstalling the software. This will not allow to changing user account then re-installing the client.
+The files are named Mega Limited
+## Ubuntu
+
+http://askubuntu.com/questions/600601/how-do-i-completely-remove-mega-sync-client
+
+
+## OS X
+
+Opent terminal and type:
+
+    mdfind Mega
+
+Removed from the list files the Mega Limited files
+
+     rm -rf Mega\ Limited/
+
+Eventually remove mega file in the folder Library.
+
